@@ -1,0 +1,26 @@
+{
+{
+        "version": "v1.6.0",
+        "title": "Key System Integration",
+        "date": "2026-04-20",
+        "type": "stable",
+        "note": "Initial implementation of the Retraktor license key system using KeyAuth with HMAC-SHA256 signing and HWID verification.",
+        "changes": [
+            { "type": "added",   "text": "Glassmorphic authentication overlay (keysystem) rendered on top of the executor UI on launch" },
+        ]
+    },
+    {
+        "version": "v1.5.0",
+        "title": "Script Hub & Multi-Tab Editor",
+        "date": "2026-04-10",
+        "type": "stable",
+        "note": "Major feature release adding the Script Hub page and a multi-tab code editor experience.",
+        "changes": [
+            { "type": "added",   "text": "Script Hub page with search bar, category filters, and script cards" },
+            { "type": "added",   "text": "Multi-tab script editor with open, close, and switch support" },
+            { "type": "added",   "text": "Luau syntax highlighting and autocomplete via Monaco Editor" },
+            { "type": "added",   "text": "Console output panel with minimize toggle and auto-expand on new log entries" },
+            { "type": "added",   "text": "Ctrl+Enter keyboard shortcut to execute the current script" }
+        ]
+    }
+}
