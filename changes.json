@@ -1,14 +1,14 @@
 [
   {
-    "version": "placeholder",
-    "title": "placeholder",
+    "version": "1.6",
+    "title": "LATEST",
     "date": "2026-04-21",
     "type": "stable",
-    "note": "placeholder",
+    "note": "revamped ui",
     "changes": [
-      { "type": "added", "text": "placeholder" },
-      { "type": "added", "text": "placeholder" },
-      { "type": "fixed", "text": "placeholder" }
+      { "type": "added", "text": "KeySystem" },
+      { "type": "added", "text": "77% UNC and 25% sUNC" },
+      { "type": "fixed", "text": "some ui bugs" }
     ]
   }
 ]
