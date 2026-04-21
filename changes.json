@@ -7,12 +7,6 @@
         "note": "Initial implementation of the Retraktor license key system using KeyAuth with HMAC-SHA256 signing and HWID verification.",
         "changes": [
             { "type": "added",   "text": "Glassmorphic authentication overlay (keysystem) rendered on top of the executor UI on launch" },
-            { "type": "added",   "text": "Key input field with loading spinner state and inline error display" },
-            { "type": "added",   "text": "POST /api/validate backend route for key verification from the UI" },
-            { "type": "added",   "text": "src/key.cpp and include/executor/key.hpp implementing HMAC-SHA256 signing and HWID generation" },
-            { "type": "added",   "text": "Dependencies: libsodium, cpr, libcurl added to project and linked in .vcxproj" },
-            { "type": "fixed",   "text": "Resolved CURL/Winsock2 header conflict by defining WIN32_LEAN_AND_MEAN and pre-including winsock2.h" },
-            { "type": "added",   "text": "Overlay fades out and grants executor access upon successful key authentication" }
         ]
     },
     {
@@ -24,7 +18,6 @@
         "changes": [
             { "type": "added",   "text": "Script Hub page with search bar, category filters, and script cards" },
             { "type": "added",   "text": "Multi-tab script editor with open, close, and switch support" },
-            { "type": "added",   "text": "Hub scripts can be copied to clipboard or pulled from external URLs into editor tabs" },
             { "type": "added",   "text": "Luau syntax highlighting and autocomplete via Monaco Editor" },
             { "type": "added",   "text": "Console output panel with minimize toggle and auto-expand on new log entries" },
             { "type": "added",   "text": "Ctrl+Enter keyboard shortcut to execute the current script" }
