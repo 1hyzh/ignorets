@@ -1,7 +1,20 @@
 [
   {
+    "version": "1.6.1",
+    "title": "UNDETECTED | LATEST",
+    "date": "2026-04-23",
+    "type": "stable",
+    "note": "roblox update",
+    "changes": [
+      { "type": "added", "text": "72% UNC and 25% sUNC" },
+      { "type": "fixed", "text": "sUNC naming problem" }
+    ]
+  },
+
+  
+  {
     "version": "1.6",
-    "title": "LATEST",
+    "title": "UNDETECTED",
     "date": "2026-04-21",
     "type": "stable",
     "note": "revamped ui",
